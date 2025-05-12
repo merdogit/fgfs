@@ -206,7 +206,7 @@ option(ENABLE_JS_DEMO    "Set to ON to build the js_demo application (default)" 
 option(ENABLE_METAR      "Set to ON to build the metar application (default)" ON)
 option(ENABLE_STGMERGE   "Set to ON to build the stgmerge application (default)" OFF)
 option(ENABLE_FGCOM      "Set to ON to build the FGCom application (default)" ON)
-option(ENABLE_QT         "Set to ON to build the internal Qt launcher" ON)
+option(ENABLE_QT         "Set to ON to build the internal Qt launcher" OFF)
 option(ENABLE_TRAFFIC    "Set to ON to build the external traffic generator modules" ON)
 option(ENABLE_FGQCANVAS  "Set to ON to build the Qt-based remote canvas application" OFF)
 option(ENABLE_DEMCONVERT "Set to ON to build the dem conversion tool (default)" ON)
@@ -217,8 +217,8 @@ option(ENABLE_SENTRY     "Set to ON to build the Sentry.io crash reporting" ON)
 option(ENABLE_HUD        "Set to ON to build the default head-up display" ON)
 option(ENABLE_PUI        "Set to ON to build the legacy PUI user-interface" ON)
 
-option(CHECK_FOR_QT5        "Set to ON to attempt to look for Qt5" ON)
-option(CHECK_FOR_QT6        "Set to ON to attempt to look for Qt6" ON)
+option(CHECK_FOR_QT5        "Set to ON to attempt to look for Qt5" OFF)
+option(CHECK_FOR_QT6        "Set to ON to attempt to look for Qt6" OFF)
 
 # Test-suite options.
 option(ENABLE_AUTOTESTING "Set to ON to execute the test suite after building the test_suite target (default)" ON)
